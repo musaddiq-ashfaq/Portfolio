@@ -7,7 +7,7 @@
     font-family: 'Poppins',sans-serif;
 }
 
-:root{
+.dark-theme{
     --first-color:#0e2431;
     --second-color: rgb(230, 48, 93);
     --third-color:#777;
@@ -95,11 +95,12 @@ li{
     display: block;
 }
 
-.dark-theme{
+:root{
     --first-color:#fff;
     --second-color: rgb(223, 37, 84);
     --third-color:#a9afc3;
-
+    
+    --hover-color:rgb(223, 37, 84);
     --body-bg-color: #0e1b31;
     --card-bg-color:#132347;
     --modal-bg-color:#102048;
@@ -113,10 +114,14 @@ li{
     --scroll-thumb-color:#282f43;
     --scroll-thumb-hover-color:#454f6b;
 
+    --bg-transparent-color:rgba(0,0,0,0.1);
+    --transparent-color-01:rgba(0,0,0,0.1);
+    --transparent-color-02:rgba(106,89,209,0.1);
+
     --btn-font-color: #fff;
 }
 
-                                            /* header  */
+/* header  */
 header{
     z-index: 99999;
     width: 100%;
