@@ -30,6 +30,7 @@ ScrollReveal().reveal('.home .info h2, .section-title-02', { delay: 500, origin:
 ScrollReveal().reveal('.home .info h3, .home .info p, .about-info, .btn', { delay: 500, origin: 'right' });
 ScrollReveal().reveal('.media-icons i, .contact-left li', { delay: 500, origin: 'left', interval: 200 });
 ScrollReveal().reveal('.about, .text-container .description, .contact-right', { delay: 600, origin: 'right' });
+ScrollReveal().reveal('#about-title', { delay: 600, origin: 'left', interval: 200 });
 ScrollReveal().reveal('.footer, .group', { delay: 500, origin: 'top', interval: 200 });
 ScrollReveal().reveal('.contact-left h2', { delay: 700, origin: 'left' });
 ScrollReveal().reveal('.service-container, .skills-container', { delay: 500, origin: 'bottom', interval: 200 });
