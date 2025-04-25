@@ -773,3 +773,53 @@ footer a{
         margin-bottom: 80px;
     }
 }
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 30px;
+    padding: 2rem 0;
+  }
+  
+  .project-card {
+    background: var(--card-bg-color);
+    border-left: 5px solid var(--second-color);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .project-card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--first-color);
+    margin-bottom: 15px;
+  }
+  
+  .project-card p {
+    font-size: 1em;
+    color: var(--third-color);
+    margin-bottom: 20px;
+  }
+  
+  .project-card a.btn {
+    font-size: 0.95em;
+    padding: 12px 25px;
+    display: inline-block;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    transform: translateY(-80px);
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    text-decoration: underline var(--second-color) 5px;
+    text-align: center; /* <--- Ensure it's here */
+}
